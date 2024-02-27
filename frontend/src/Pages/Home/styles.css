@@ -1,0 +1,38 @@
+.home-container{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.content-container{
+    padding: 20px 30px;
+    font-size: 20px;
+}
+
+.specialization-content{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-social-container{
+    display: flex;
+    height: 100px;
+}
+
+.nav-left-item {
+    padding: 20px 28px;
+    height: auto;
+}
+
+.nav-left-item svg{
+    width: 100px;
+    padding: 20px 5px;
+    height: 50px;
+}
+
+.nav-year-item{
+    font-size: 10px;
+    text-align: right;
+    flex: 1;
+}
