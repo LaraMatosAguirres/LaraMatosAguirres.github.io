@@ -1,9 +1,11 @@
 import { ReactComponent as Line } from "../../assets/images/Line.svg";
+import { ReactComponent as Instagram } from "../../assets/images/Instagram.svg";
+import { ReactComponent as Linkedin } from "../../assets/images/Linkedin.svg";
 import "./styles.css";
 
 const Home = () => {
   return (
-    <div className="home-container mw-100">
+    <nav className="home-container">
       <div className="content-container">
         <div>
           <h1>Meus projetos</h1>
@@ -21,20 +23,28 @@ const Home = () => {
         </div>
       </div>
       <div className="nav-social-container">
-        <div className="nav-left-item">
-          <h6>Instagram</h6>
-        </div>
-        <div className="nav-left-item">
-          <h6>Linkedin</h6>
-        </div>
-        <div className="nav-left-item">
+        <a
+          href="https://www.instagram.com/lara.laramatos/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Instagram />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/lara-matos-aguirres-3a632b244/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Linkedin />
+        </a>
+        <div className="nav-left-item-line">
           <Line />
         </div>
         <div className="nav-left-item nav-year-item">
           <h1>/2024</h1>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
