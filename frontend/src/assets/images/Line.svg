@@ -4,7 +4,7 @@
 <body style="margin: 0; overflow: hidden;">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100% 1">
-  <line x1="0" y1="0.5" x2="100%" y2="0.5" style="stroke: #ffffff; stroke-width: 1;" />
+  <line x1="0" y1="0.5" x2="100%" y2="0.5" style="stroke: #ffffff; stroke-width: 3;" />
 </svg>
 
 </body>
