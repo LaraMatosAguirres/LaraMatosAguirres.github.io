@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LaraMatosAguirres.github.io/static/css/main.bbe52f2e.css",
+    "main.js": "/LaraMatosAguirres.github.io/static/js/main.f723fcee.js",
+    "index.html": "/LaraMatosAguirres.github.io/index.html",
+    "main.bbe52f2e.css.map": "/LaraMatosAguirres.github.io/static/css/main.bbe52f2e.css.map",
+    "main.f723fcee.js.map": "/LaraMatosAguirres.github.io/static/js/main.f723fcee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbe52f2e.css",
+    "static/js/main.f723fcee.js"
+  ]
+}
