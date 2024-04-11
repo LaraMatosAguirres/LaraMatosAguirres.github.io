@@ -13,3 +13,78 @@ h6{
   font-weight:bold;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-content-left-container {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.nav-left-item-line {
+  align-items: last baseline;
+  display: flex;
+  flex: 1;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.nav-left-year-item h6 {
+  font-size: 13px;
+  margin: 0;
+  padding-top: 15px;
+}
+
+@media (min-width: 768px){
+
+  .nav-content-left-container {
+    align-items: center;
+    flex-direction: column;
+    height: 95vh;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.nav-left-item-line {
+  background-color: indigo;
+  flex-direction: column;
+  width: 1.5px;
+  margin-bottom: 160px;
+  padding: 0px;
+}
+.nav-left-year-item h6 {
+  transform: rotate(270deg);
+  padding-right: 0px;
+  padding-left: 20px;
+}
+
+}
+
+@media (min-width: 1024px){
+
+  .nav-left-item-line{
+    margin-bottom: 290px;
+    
+  }
+
+  
+}
+
+@media (min-width: 1392px){
+
+  .nav-left-item-line{
+    margin-bottom: 260px;
+  }
+
+  .nav-content-left-container{
+    padding-left: 30px;
+  }
+}

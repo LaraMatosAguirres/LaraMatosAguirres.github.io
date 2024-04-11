@@ -1,0 +1,50 @@
+.home-link {
+    display: flex;
+    align-items: last baseline; 
+}
+
+.home-link:hover {
+    text-decoration: line-through;
+}
+
+.nav-back-year-item h6{
+    padding: 0px;
+}
+
+@media (min-width: 768px){
+    .nav-left-contact-container{
+        width: 60px;
+    }
+    .home-link{
+        padding-right: 20px;
+        transform: rotate(270deg);
+    }
+
+    .line-contact-container {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .nav-left-contact-container{
+        width: 100px;
+    }
+
+    .home-link {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .nav-left-contact-container{
+        width: 180px;
+    }
+
+    .home-link{
+        font-size: 40px;
+    }
+
+    .line-contact-container {
+        margin-top: 80px;
+    }
+}

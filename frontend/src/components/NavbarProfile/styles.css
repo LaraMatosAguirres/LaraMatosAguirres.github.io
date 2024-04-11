@@ -1,0 +1,39 @@
+.nav-profile-container {
+    font-weight: bold;
+    font-size: 40px;
+    position: fixed;
+}
+
+.nav-profile-item {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out, font-style 0.1s ease-in-out;
+}
+
+.nav-profile-item:hover {
+    transform: translateX(20px); 
+      font-style: italic;
+}
+
+@media (min-width: 768px){
+    .nav-profile-container {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav-profile-container {
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 1392px) {
+    .nav-profile-container {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 2560px){
+    .nav-profile-container {
+        font-size: 180px;
+    }
+}
