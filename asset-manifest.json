@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/LaraMatosAguirres.github.io/static/css/main.0949e872.css",
-    "main.js": "/LaraMatosAguirres.github.io/static/js/main.87181487.js",
-    "static/media/Linkedin.svg": "/LaraMatosAguirres.github.io/static/media/Linkedin.6d6d27f237afad0d9dfdee3059bc210a.svg",
-    "static/media/Instagram.svg": "/LaraMatosAguirres.github.io/static/media/Instagram.445057e759076dc0d5fb1f43b802235b.svg",
+    "main.css": "/LaraMatosAguirres.github.io/static/css/main.faa8698e.css",
+    "main.js": "/LaraMatosAguirres.github.io/static/js/main.4c7c9fd2.js",
     "index.html": "/LaraMatosAguirres.github.io/index.html",
-    "static/media/Line.svg": "/LaraMatosAguirres.github.io/static/media/Line.4b160e3e34be7ec576ab187312dc0930.svg",
-    "main.0949e872.css.map": "/LaraMatosAguirres.github.io/static/css/main.0949e872.css.map",
-    "main.87181487.js.map": "/LaraMatosAguirres.github.io/static/js/main.87181487.js.map"
+    "main.faa8698e.css.map": "/LaraMatosAguirres.github.io/static/css/main.faa8698e.css.map",
+    "main.4c7c9fd2.js.map": "/LaraMatosAguirres.github.io/static/js/main.4c7c9fd2.js.map"
   },
   "entrypoints": [
-    "static/css/main.0949e872.css",
-    "static/js/main.87181487.js"
+    "static/css/main.faa8698e.css",
+    "static/js/main.4c7c9fd2.js"
   ]
 }
