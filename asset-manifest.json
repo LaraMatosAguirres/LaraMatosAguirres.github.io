@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/LaraMatosAguirres.github.io/static/css/main.9476af79.css",
-    "main.js": "/LaraMatosAguirres.github.io/static/js/main.42b37acc.js",
+    "main.css": "/LaraMatosAguirres.github.io/static/css/main.31d6cfe0.css",
+    "main.js": "/LaraMatosAguirres.github.io/static/js/main.91b69f6d.js",
     "index.html": "/LaraMatosAguirres.github.io/index.html",
-    "main.9476af79.css.map": "/LaraMatosAguirres.github.io/static/css/main.9476af79.css.map",
-    "main.42b37acc.js.map": "/LaraMatosAguirres.github.io/static/js/main.42b37acc.js.map"
+    "main.91b69f6d.js.map": "/LaraMatosAguirres.github.io/static/js/main.91b69f6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9476af79.css",
-    "static/js/main.42b37acc.js"
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.91b69f6d.js"
   ]
 }
