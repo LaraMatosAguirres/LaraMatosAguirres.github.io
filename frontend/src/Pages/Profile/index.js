@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import NavbarBack from "../../components/NavbarBack";
 import NavbarProfile from "../../components/NavbarProfile";
+import { ReactComponent as ProjetoIlustracao } from "../../assets/images/ProjetoIlustracao.svg";
 import { motion } from "framer-motion";
 import "./styles.css";
 
@@ -32,14 +33,16 @@ const Profile = () => {
               </p>
             </div>
           </div>
-
           <div className="profile-content-item">
             <NavbarProfile />
           </div>
         </div>
-        <div className="top-nav-bar">
+        {/* <div className="top-nav-bar">
           <NavbarBack />
-        </div>
+        </div>*/}
+      </div>
+      <div className="ilustracao-projeto">
+        <ProjetoIlustracao />
       </div>
     </motion.nav>
   );

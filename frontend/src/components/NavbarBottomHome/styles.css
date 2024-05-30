@@ -4,7 +4,7 @@
 }
 
 .items-container {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -55,7 +55,7 @@
     .items-container {
         padding-bottom: 0px;
         padding-top: 50px;
-        font-size: 68px;
+        font-size: 60px;
     }
 }
 

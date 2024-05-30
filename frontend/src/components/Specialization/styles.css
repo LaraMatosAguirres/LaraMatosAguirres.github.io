@@ -4,7 +4,12 @@
 }
 
 .name-user-specialization-container {
+    
     margin: 0 0 auto 0;
+}
+
+.name-user-specialization-container h5 {
+    font-size: 27px;
 }
 
 .specialization-content-container p{

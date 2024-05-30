@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Indie Flower', sans-serif;
 }
 
 h1,
@@ -28,12 +28,11 @@ a {
 }
 
 .nav-left-item-line {
+  background-color: indigo;
   align-items: last baseline;
   display: flex;
   flex: 1;
-  padding-left: 15px;
-  padding-right: 20px;
-  padding-bottom: 5px;
+  margin: 22px 10px 10px 10px;
 }
 
 .nav-left-year-item h6 {
@@ -54,7 +53,7 @@ a {
 }
 
 .nav-left-item-line {
-  background-color: indigo;
+  margin: 0;
   flex-direction: column;
   width: 1.5px;
   margin-bottom: 160px;

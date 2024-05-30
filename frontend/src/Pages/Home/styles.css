@@ -2,7 +2,7 @@
     height: 100vh;
 }
 
-.nav-content-container{
+/*.nav-content-container{
     display: flex;
     height: 95vh;
     flex-direction: column-reverse;
@@ -78,4 +78,4 @@
     .content-item-specialization{
         padding-right: 80px;
     }
-}
+}*/

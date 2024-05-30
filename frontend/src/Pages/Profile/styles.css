@@ -1,6 +1,43 @@
 .profile-container {
     height: 100vh;
+    background-color: rgb(6, 62, 6);
 }
+
+.profile-text-content-container{
+    color: #ffff81;
+}
+
+.profile-text-content-container h6{
+    text-align: center;
+}
+
+.profile-text-content-container p{
+    text-align: center;
+}
+
+.ilustracao-projeto{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.ilustracao-projeto svg{
+    height: 180px;
+}
+
+@media (min-width: 375px){
+
+    .profile-text-content-container h6{
+        font-size: 20px;
+    }
+
+    .profile-text-content-container p{
+        font-size: 20px;
+    }
+}
+
+/*
 
 .nav-profile-content-container{
     display: flex;

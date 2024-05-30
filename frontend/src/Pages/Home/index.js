@@ -4,6 +4,7 @@ import NavbarTop from "../../components/NavbarTop";
 import Specialization from "../../components/Specialization";
 import { motion } from "framer-motion";
 import "./styles.css";
+import Profile from "../Profile";
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -21,18 +22,18 @@ const Home = () => {
       exit={{ opacity: 0, transition: { duration: 0.3 } }}
       transition={{ duration: 0.3 }}
     >
-      <div className="nav-content-container">
-        <div className="nav-item-bottom-container">
-          <div className="content-item">
-            <NavbarBottom />
-          </div>
+      <div className="nav-content-container container-fluid">
+        <div className="nav-item-bottom-container row">
           <div className="content-item content-item-specialization">
             <Specialization />
           </div>
         </div>
+        {/* <div className="content-item">
+            <Profile />
+          </div>
         <div className="top-nav-bar ">
           <NavbarTop />
-        </div>
+        </div>*/}
       </div>
     </motion.nav>
   );

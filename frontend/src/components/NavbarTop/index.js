@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactComponent as Line } from "../../assets/images/Line.svg";
 import { ReactComponent as Instagram } from "../../assets/images/Instagram.svg";
 import { ReactComponent as Linkedin } from "../../assets/images/Linkedin.svg";
 import "./styles.css";
@@ -27,10 +26,8 @@ const NavbarTop = () => {
           <Linkedin />
         </a>
       </div>
-      <div className="nav-left-item-line">
-        <Line />
-      </div>
-      <div className="nav-left-year-item h6">
+      <div className="nav-left-item-line"></div>
+      <div className="nav-left-year-item">
         <h6>©/2024</h6>
       </div>
     </div>
