@@ -1,6 +1,6 @@
 .contact-container {
     display: flex;
-    height: 95vh;
+    height: auto;
     flex-direction: column-reverse;
     justify-content: space-between;
 }
@@ -8,7 +8,8 @@
 .content-contact-container {
     flex: 1;
     display: flex;
-    padding: 60px 10px 0px 10px;
+    padding: 20px 10px 0px 10px;
+    margin-bottom: 20px;
     align-items: first baseline;
 }
 

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import NavbarBack from "../../components/NavbarBack";
+import { ReactComponent as Linkedin } from "../../assets/images/Linkedin.svg";
+import { ReactComponent as Github } from "../../assets/images/Github.svg";
 import { motion } from "framer-motion";
 import "./styles.css";
 
@@ -22,32 +23,27 @@ const Contact = () => {
     >
       <div className="content-contact-container row">
         <div className="col">
-          <h1>Olá!</h1>
           <p>Gostou do meu portifólio e deseja me contatar?</p>
           <p>Email: lara.laramatos@gmail.com</p>
-          <p>
-            Pela internet:{" "}
+          <div>
             <a
               href="https://www.linkedin.com/in/lara-matos-aguirres-3a632b244/"
               target="_blank"
               rel="noopener noreferrer"
+              className="content-social-svg"
             >
-              Linkedin
+              <Linkedin />
             </a>
-            /
             <a
               href="https://github.com/LaraMatosAguirres"
               target="_blank"
               rel="noopener noreferrer"
+              className="content-social-svg"
             >
-              Github
+              <Github />
             </a>
-            /
-          </p>
+          </div>
         </div>
-      </div>
-      <div>
-        <NavbarBack />
       </div>
     </motion.div>
   );

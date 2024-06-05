@@ -4,7 +4,8 @@
 }
 
 .name-user-specialization-container {
-    
+    display: flex;
+    align-items: center;
     margin: 0 0 auto 0;
 }
 
@@ -16,6 +17,14 @@
     font-weight: normal;
     font-size: 15px;
     margin: 0px;
+}
+
+.minha-foto{
+    margin-left: 45px;
+}
+
+.minha-foto svg{
+    height: 200px;
 }
 
 @media (min-width: 520px){

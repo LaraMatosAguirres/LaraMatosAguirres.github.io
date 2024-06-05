@@ -5,6 +5,7 @@ import Specialization from "../../components/Specialization";
 import { motion } from "framer-motion";
 import "./styles.css";
 import Profile from "../Profile";
+import Contact from "../Contact";
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -27,6 +28,12 @@ const Home = () => {
           <div className="content-item content-item-specialization">
             <Specialization />
           </div>
+        </div>
+        <div className="content-profile-item">
+          <Profile />
+        </div>
+        <div>
+          <Contact />
         </div>
         {/* <div className="content-item">
             <Profile />
