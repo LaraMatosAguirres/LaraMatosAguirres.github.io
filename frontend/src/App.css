@@ -28,7 +28,6 @@ a {
 }
 
 .nav-left-item-line {
-  background-color: indigo;
   align-items: last baseline;
   display: flex;
   flex: 1;

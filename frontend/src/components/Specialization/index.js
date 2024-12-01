@@ -15,13 +15,17 @@ const Specialization = () => {
       <div className="row">
         <div className="specialization-content-container col secondary">
           <p>
-            <h6>Sou Lara Matos Aguirres</h6> desenvolvedora web Jr. Atualmente
-            atuo num projeto familiar como desenvolvedora, contribuindo para o
-            desdobramento da aplicação e melhorando continuamente os sistemas.
-            Estou cursando graduação de Desenvolvimento de Software, juntamente
-            com cursos complementares como Bootcamps da DevSuperior de React e
-            Java e outros cursos. Tenho conhecimentos em tecnologias como Java,
-            React, MySQL além de ferramentas como Git, GitHub e GitLab.
+            <h6>Sou Lara Matos Aguirres</h6> desenvolvedora web Jr. Atualmente, 
+            estou cursando Engenharia de Software na Jala University, uma faculdade de destaque internacional. 
+            Já possuo sólida experiência em diversas tecnologias, incluindo Java, Python, Spring Boot, React e MySQL, 
+            além de dominar ferramentas de controle de versão como Git, GitHub e GitLab.
+
+            
+          </p>
+          <p>
+            Meu objetivo é combinar meu conhecimento técnico com práticas inovadoras de desenvolvimento 
+            para entregar soluções eficientes e escaláveis. Estou sempre em busca de novos desafios que 
+            me permitam aplicar e expandir minhas habilidades no mundo do desenvolvimento de software.
           </p>
           <p>
             Ficou curioso? Continue rolando para baixo e descubra mais sobre

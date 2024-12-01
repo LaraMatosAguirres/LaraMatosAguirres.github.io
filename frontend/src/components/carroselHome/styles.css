@@ -1,0 +1,9 @@
+.carouselExampleControls{
+    position: relative;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    margin-top: 15px;
+    display: flex;
+    align-items:  first baseline;
+}

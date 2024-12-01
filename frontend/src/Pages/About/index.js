@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import NavbarBack from "../../components/NavbarBack";
 import MinhaFoto from "../../assets/images/Minha-foto.jpeg";
 import { motion } from "framer-motion";
 import "./styles.css";
@@ -31,89 +30,42 @@ const About = () => {
             <h4>Quem eu sou?</h4>
             <div>
               <p>
-                Olá! Me chamo Lara Matos Aguirres, gosto de música, cães, gatos
-                e amo uma boa aventura, não importando a forma que ela tenha.
-                Moro numa chácara com meus pais, irmãos e um gatinho muito lindo
-                que se chamado Sujinho. Sou desenvolvedora fullstack, operando
-                dos dois lados da moeda para websites, tornando a vida do
-                usuário uma pequena jornada fantástica e segura durante a
-                navegação.{" "}
+              Olá! Sou Lara Matos Aguirres, uma desenvolvedora fullstack apaixonada por criar soluções 
+              inovadoras e eficientes para a web. Com um amor por desafios e aprendizado contínuo, 
+              mergulhei na área de desenvolvimento de software após uma jornada um tanto inusitada.{" "}
               </p>
               <p>
-                Confesso que nunca imaginei que um dia estaria na frente de um
-                computador desenvolvendo códigos em Java ou TypeScript, sempre
-                achei que seria da área de humanas, mais especificamente
-                desvendando a mente humana e seus diversos traumas e alegrias.
-                E, como a vida tem mania de nos supreender, meu primeiro grande
-                susto foi conseguir passar para Ciências Contábeis pelo Enem.{" "}
+              Embora minha formação inicial tenha sido em Ciências Contábeis, minha paixão por resolver 
+              problemas e otimizar processos me levou ao mundo da programação. Comecei com projetos pessoais 
+              e rapidamente percebi que a lógica por trás do desenvolvimento de websites é, para mim, uma 
+              verdadeira jornada épica - cheia de desafios e recompensas.{" "}
               </p>
               <p>
-                Logo depois, acredito eu que o fator decisivo para em fim virar
-                para a área do Desenvolvimento Web, foi falhar após algumas
-                tentativas com vendas online. No meio tempo entre vendas online
-                e a faculdade, tive meu primeiro contato com a programação em um
-                estágio em um escritório de contabilidade, onde as planilhas e
-                os macros do google se mostraram um verdadeiro enigma.{" "}
-              </p>
-              <p>
-                Estes dois eventos foram marcantes o suficiente para que eu me
-                voltasse aos programas e descobrisse que a lógica por trás de um
-                site poderia ser uma jornada tão épica -e ligeiramente
-                trabalhosa rs - quanto Senhor do Anéis, Dangeons and Dragons, ou
-                qualquer outra aventura medieval fantástica.{" "}
-              </p>
-              <p>
-                Desde então, a área de desenvolvimento tem se mostrado um
-                esforço diário, onde a determinação, a disciplina e a paciência,
-                além da busca continua por conhecimento, estão sendo testados e
-                me fortalecido um pouco mais a cada desafio/batalha vencida.{" "}
-              </p>
-              <p>
-                Acredito eu que a melhor parte de uma boa aventura é a evolução
-                que o personagem apresenta do começo ao fim. Este é o meu desejo
-                mais profundo: evoluir até o meu fim.
+              Hoje, como desenvolvedora fullstack, tenho a oportunidade de trabalhar tanto 
+              no frontend quanto no backend, criando experiências digitais seguras e agradáveis 
+              para os usuários. Sou movida pela ideia de que cada linha de código é uma pequena 
+              conquista em um caminho de evolução constante.{" "}
               </p>
             </div>
           </div>
           <div className="experience-content-container">
             <h6>EXPERIÊNCIA</h6>
             <p>
-              Apesar de ainda não ter uma experiência real no mercado de
-              trabalho, desenvolvi projetos pessoais localizados no meu{" "}
-              <a href="/#/profile">Portifólio</a>. Lá você encontrará uma
-              descrição sobre cada um deles e uma breve apresentação sobre o
-              funcionamento, bem como as tecnologias que os envolvem.
+            Embora eu ainda esteja em início de carreira no mercado de trabalho, já tenho 
+            uma sólida base de conhecimento e experiência prática em diversos projetos pessoais. 
+            Para ver alguns desses projetos, visite meu Portfólio, onde compartilho detalhes sobre 
+            cada um, incluindo as tecnologias usadas e os desafios enfrentados. Acredito que essas 
+            experiências demonstram minha capacidade de aprender rapidamente e adaptar-me a novas tecnologias.
             </p>
           </div>
           <div className="skills-content-container">
             <h6>SKILLS</h6>
-            <p>-Java8, lógica de programação e orientação a objetos</p>
-            <p>-Desenvolvimento backend orientado a Testes Automatizados</p>
-            <p>-Spring Boot</p>
-            <p>-Docker, PostgreSQL e MongoDB</p>
-            <p>-JavaScritp e TypeScript</p>
-            <p>-React.js</p>
-            <p>-Node.js</p>
-            <p>-Bootstrap e SASS</p>
-            <p>-HTML e CSS</p>
+            <p>-Java 8: Forte compreensão de lógica de programação e orientação a objetos.</p>
+            <p>-Desenvolvimento Backend: Experiência com Spring Boot e foco em testes automatizados.</p>
+            <p>-Containers e Banco de Dados: Familiaridade com PostgreSQL e MongoDB.</p>
+            <p>-Frontend: Proficiência em JavaScript, TypeScript, React.js, HTML5, CSS3 e Bootstrap.</p>
+            <p>-Ferramentas de Estilização: Utilizo SASS para criar interfaces responsivas e bem estilizadas.</p>
           </div>
-          <div>
-            <h6>AGRADECIMENTOS</h6>
-            <p>
-              Esta é uma pequena dedicatória as pessoas que fizeram parte da
-              minha trajetória até aqui. Como nenhuma história é contada sozinha
-              e sim por um conjunto de pessoas unidas, quero que essas pessoas
-              saibam que foram marcantes na minha jornada e que terão meus
-              sinceros e eternos agradecimentos: JURANDI DIAS DE CARVALHO,
-              SILVIA MATOS CARVALHO, ALESSANDRO AGUIRRES CORREIA E LAILA DEVAI.
-              Também agradeço a você que leu até aqui, que teve a paciência e a
-              curiosidade que me permitiu compartilhar um pouquinho de mim por
-              essa página.
-            </p>
-          </div>
-        </div>
-        <div className="back-nav-bar">
-          <NavbarBack />
         </div>
       </div>
     </motion.div>

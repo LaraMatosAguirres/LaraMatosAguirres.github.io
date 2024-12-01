@@ -4,8 +4,8 @@ import NavbarTop from "../../components/NavbarTop";
 import Specialization from "../../components/Specialization";
 import { motion } from "framer-motion";
 import "./styles.css";
-import Profile from "../Profile";
 import Contact from "../Contact";
+import CarroselHome from "../../components/carroselHome";
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,13 +29,20 @@ const Home = () => {
             <Specialization />
           </div>
         </div>
-        <div className="content-profile-item">
-          <Profile />
-        </div>
+        *<CarroselHome />*
+        
         <div>
           <Contact />
         </div>
-        {/* <div className="content-item">
+        {/* 
+        <div className="content-profile-item">
+          <Profile />
+        </div>
+        <div className="content-profile-item">
+          <About />
+        </div>
+        
+        <div className="content-item">
             <Profile />
           </div>
         <div className="top-nav-bar ">
