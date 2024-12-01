@@ -1,9 +1,49 @@
 .carouselExampleControls{
     position: relative;
+    
 }
 
 .carousel-control-prev, .carousel-control-next {
     margin-top: 15px;
     display: flex;
     align-items:  first baseline;
+    height: 50px;
+}
+
+.carousel-control-prev{
+    margin-left: 20px;
+}
+
+.carousel-control-next{
+    margin-right: 20px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 20px;
+}
+
+@media (min-width: 425px){
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 25px;
+    }
+}
+
+@media (min-width: 768px){
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 40px;
+    }
+}
+
+@media (min-width: 2000px){
+
+    .carousel-control-prev, .carousel-control-next {
+        height: auto;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 70px;
+        height: 70px;
+    }
 }

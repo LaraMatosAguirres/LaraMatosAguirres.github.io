@@ -40,6 +40,10 @@ a {
   padding-top: 15px;
 }
 
+::-webkit-scrollbar-thumb {
+  background-color: rgb(130, 62, 28);
+}
+
 @media (min-width: 768px){
 
   .nav-content-left-container {
@@ -72,6 +76,10 @@ a {
     margin-bottom: 290px;
     
   }
+
+  ::-webkit-scrollbar{
+    width: 5px;
+   }
 
   
 }

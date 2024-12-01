@@ -38,7 +38,7 @@ const Contact = () => {
               href="https://github.com/LaraMatosAguirres"
               target="_blank"
               rel="noopener noreferrer"
-              className="content-social-svg"
+              className="content-social-svg github"
             >
               <Github />
             </a>

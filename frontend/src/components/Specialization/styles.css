@@ -27,7 +27,18 @@
     height: 200px;
 }
 
-@media (min-width: 520px){
+@media (min-width: 375px){
+    .name-user-specialization-container {
+        margin: 0 0 auto 30px;
+    }
+}
+
+@media (min-width: 425px){
+
+    .name-user-specialization-container {
+        margin: 0 0 auto 50px;
+    }
+
     .specialization-content-container p{
         font-size: 18px;
     }
@@ -35,30 +46,75 @@
 
 @media (min-width: 768px) {
     .specialization-container{
-        padding: 5px 0px;
+        padding: 5px 30px 0px 30px;
+    }
+
+    .name-user-specialization-container {
+        justify-content: right;
+    }
+
+    .minha-foto svg{
+        height: 300px;
     }
 
     .name-user-specialization-container h5{
-        font-size: 28px;
+        font-size: 40px;
     }
 
     .specialization-content-container p{
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
 @media (min-width: 1024px){
-    .specialization-container {
-        padding-top: 300px;
-    }
-}
 
-@media (min-width: 2560px) {
+    .specialization-container{
+        padding: 5px 50px 0px 50px;
+    }
+
     .name-user-specialization-container h5{
-        font-size: 38px;
+        font-size: 50px;
+    }
+
+    .specialization-content-container h6{
+        font-size: 28px;
     }
 
     .specialization-content-container p{
-        font-size: 28px;
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .specialization-container{
+        padding: 5px 70px 0px 70px;
+    }
+
+    .specialization-content-container p{
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 2000px) {
+
+    .specialization-container{
+        padding: 5px 80px 0px 80px;
+    }
+
+    .minha-foto svg{
+        height: 500px;
+    }
+
+    .name-user-specialization-container h5{
+        font-size: 80px;
+    }
+
+    .specialization-content-container h6{
+        font-size: 48px;
+    }
+
+    .specialization-content-container p{
+        font-size: 40px;
     }
 }

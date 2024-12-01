@@ -2,6 +2,12 @@
     height: 300px;
     overflow: scroll;
 }
+
+.nav-profile-container::-webkit-scrollbar-thumb{
+    background-color: #ffffa6;
+    border-radius: 5px;
+   }
+
 .nav-profile-item {
     background-image: url('../../assets/images/FolhaCaderno.svg');
     background-size: cover; 
@@ -42,120 +48,39 @@
     }
 }
 
-
-/*
-
-.content-container {
-    padding: 20px;
-    min-height: 200px;
-}
-
-.items-container {
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.nav-bottom-text-link {
-    display: inline-block;
-    transition: transform 0.3s ease-in-out, font-style 0.1s ease-in-out;
-}
-
-.nav-bottom-text-link:hover {
-    transform: translateX(20px); 
-      font-style: italic;
-}
-
-.fade-out {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-  }
-  
-
-@media (min-width: 425px) {
-    .items-container {
-        font-size: 50px;
-    }.nav-profile-container {
-        font-weight: bold;
-        font-size: 40px;
-        position: fixed;
-    }
-    
-    .nav-profile-item {
-        display: inline-block;
-        transition: transform 0.3s ease-in-out, font-style 0.1s ease-in-out;
-    }
-    
-    .nav-profile-item:hover {
-        transform: translateX(20px); 
-          font-style: italic;
-    }
-    
-    @media (min-width: 768px){
-        .nav-profile-container {
-            font-size: 80px;
-        }
-    }
-    
-    @media (min-width: 1024px) {
-        .nav-profile-container {
-            font-size: 70px;
-        }
-    }
-    
-    @media (min-width: 1392px) {
-        .nav-profile-container {
-            font-size: 100px;
-        }
-    }
-    
-    @media (min-width: 2560px){
-        .nav-profile-container {
-            font-size: 180px;
-        }
-    }
-}
-
-@media (min-width: 520px){
-    .items-container {
-        font-size: 55px;
-    }
-}
-
 @media (min-width: 768px){
-    .content-container {
-        padding: 0px;
+
+    .nav-profile-container {
+        height: 430px;
     }
 
-    .items-container {
-        font-size: 79px;
-        padding-bottom: 70px;
-    }
 }
 
 @media (min-width: 1024px){
-    .content-container{
-        padding-top: 100px;
+
+    .nav-profile-container {
+        height: 430px;
     }
 
-    .items-container {
-        padding-bottom: 0px;
-        padding-top: 50px;
-        font-size: 68px;
-    }
+    .nav-profile-container{
+        overflow: hidden;
+        overflow-y: scroll;
+    }   
+   
 }
 
-@media (min-width: 1392px) {
-    .content-container{
-        padding-top: 20px;
+@media (min-width: 2000px){
+
+    .nav-profile-container {
+        height: 530px;
+    }   
+
+    .nav-profile-item h1{
+        font-size: 60px;
     }
 
-    .items-container {
-        font-size: 86.5px;
+    .nav-profile-item p{
+        font-size: 50px;
     }
+   
 }
-
-@media (min-width: 2560px) {
-    .items-container {
-        font-size: 128px;
-    }
-}*/

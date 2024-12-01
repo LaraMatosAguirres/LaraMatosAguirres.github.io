@@ -17,6 +17,20 @@
     text-decoration: underline;
 }
 
+@media (min-width: 425px){
+    .content-contact-container p{
+        font-size: 20px;
+    } 
+
+    .content-social-svg svg{
+        height: 50px;
+    }
+
+    .github{
+        margin-left: 20px;
+    }
+}
+
 @media (min-width: 768px){
     .contact-container{
         height: 50vh;
@@ -26,27 +40,32 @@
     }
 
     .content-contact-container{
-        padding: 60px 10px 0px 70px;
+        padding: 0px 10px 0px 70px;
         align-items: last baseline;
+        margin-bottom: 40px;
     }
 
-    .content-contact-container h1{
+    .content-contact-container p{
         margin-bottom: 20px;
-        font-size: 80px;
+        font-size: 25px;
     }
 }
 
 @media (min-width: 1024px) {
     .content-contact-container{
-        padding: 60px 10px 0px 100px;
-    }
-
-    .content-contact-container h1{
-        font-size: 100px;
+        padding: 0px 10px 0px 100px;
     }
 
     .content-contact-container p {
-        font-size: 20px;
+        font-size: 30px;
+    }
+
+    .content-social-svg svg{
+        height: 65px;
+    }
+
+    .github{
+        margin-left: 30px;
     }
 }
 
@@ -55,13 +74,12 @@
         padding-left: 120px;
     }
 
-    .content-contact-container h1{
-        margin-bottom: 40px;
-        font-size: 160px;
+    .content-contact-container p {
+        font-size: 32px;
     }
 
-    .content-contact-container p {
-        font-size: 30px;
+    .github{
+        margin-left: 20px;
     }
 }
 
@@ -70,11 +88,12 @@
         padding-left: 200px;
     }
 
-    .content-contact-container h1{
-        font-size: 220px;
-    }
-
     .content-contact-container p {
         font-size: 50px;
     }
+
+    .content-social-svg svg{
+        height: 120px;
+    }
+
 }

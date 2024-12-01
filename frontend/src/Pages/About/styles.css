@@ -61,6 +61,10 @@
         position: fixed;
         left: 0;
     }
+
+    .about-content-container p{
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 1024px){
@@ -74,6 +78,10 @@
 
     .photo-container img {
         height: 450px;
+    }
+
+    .about-content-container p{
+        font-size: 24px;
     }
 }
 
@@ -91,7 +99,7 @@
     }
 
     .about-content-container p {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .photo-container {
