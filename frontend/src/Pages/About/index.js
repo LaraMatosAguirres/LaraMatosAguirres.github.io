@@ -1,31 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import MinhaFoto from "../../assets/images/Minha-foto.jpeg";
-import { motion } from "framer-motion";
 import "./styles.css";
 
 const About = () => {
-  const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsVisible(true);
-    }, 1000); // 5000 milissegundos = 5 segundos
-  }, []);
-
-  return (
-    <motion.div
-      className="about-container container-fluid"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: isVisible ? 1 : 0 }}
-      exit={{ opacity: 0, transition: { duration: 0.3 } }}
-      transition={{ duration: 0.3 }}
-    >
-      <div className="about-content-container ">
+  return (    
+      <div className="about-container ">
+               
         <div className="photo-container">
           <img src={MinhaFoto} alt="Uma foto minha de camisa azul" />
         </div>
-
-        <div>
+        <div className="about-content-container ">
           <div className="about-me-content-container col">
             <h4>Quem eu sou?</h4>
             <div>
@@ -64,11 +49,11 @@ const About = () => {
             <p>-Desenvolvimento Backend: Experiência com Spring Boot e foco em testes automatizados.</p>
             <p>-Containers e Banco de Dados: Familiaridade com PostgreSQL e MongoDB.</p>
             <p>-Frontend: Proficiência em JavaScript, TypeScript, React.js, HTML5, CSS3 e Bootstrap.</p>
-            <p>-Ferramentas de Estilização: Utilizo SASS para criar interfaces responsivas e bem estilizadas.</p>
+            <p>-Metodologias Ágeis: Experiência em trabalhar com Scrum e Kanban, priorizando entregas incrementais e colaborativas.</p>
+            <p>-Controle de Versão: Experiência com Git para versionamento de código e colaboração em equipe, incluindo práticas de branching e code review. Familiaridade com GitHub e GitLab para pipelines de CI/CD e gestão de repositórios.</p>
           </div>
         </div>
       </div>
-    </motion.div>
   );
 };
 

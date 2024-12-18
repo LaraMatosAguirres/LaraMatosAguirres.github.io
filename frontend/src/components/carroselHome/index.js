@@ -1,6 +1,7 @@
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Profile from "../../Pages/Profile";
 import About from "../../Pages/About";
+import Curriculum from "../../Pages/Curriculum";
 import "./styles.css"
 
 function CarroselHome() {
@@ -13,6 +14,12 @@ function CarroselHome() {
               <Profile />
             </div>
           </div>
+
+          {/*<div className="carousel-item">
+            <div className="content-profile-item">
+              <Curriculum />
+            </div>
+          </div>*/}
           
           {/* Slide 2: Componente About */}
           <div className="carousel-item">

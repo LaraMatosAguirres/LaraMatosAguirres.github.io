@@ -15,7 +15,7 @@ const Specialization = () => {
       <div className="row">
         <div className="specialization-content-container col secondary">
           <p>
-            <h6>Sou Lara Matos Aguirres</h6> desenvolvedora web Jr. Atualmente, 
+            <h6>Sou Lara Matos Aguirres</h6> desenvolvedora web Jr de 21 anos. Atualmente, 
             estou cursando Engenharia de Software na Jala University, uma faculdade de destaque internacional. 
             Já possuo sólida experiência em diversas tecnologias, incluindo Java, Python, Spring Boot, React e MySQL, 
             além de dominar ferramentas de controle de versão como Git, GitHub e GitLab.

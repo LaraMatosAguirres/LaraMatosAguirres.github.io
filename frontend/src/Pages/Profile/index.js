@@ -1,27 +1,12 @@
-import React, { useEffect, useState } from "react";
-import NavbarBack from "../../components/NavbarBack";
+import React from "react";
 import NavbarProfile from "../../components/NavbarProfile";
 import { ReactComponent as ProjetoIlustracao } from "../../assets/images/ProjetoIlustracao.svg";
-import { motion } from "framer-motion";
 import "./styles.css";
 
 const Profile = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setIsVisible(true);
-    }, 1000); // 5000 milissegundos = 5 segundos
-  }, []);
 
   return (
-    <motion.nav
-      className="profile-container"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: isVisible ? 1 : 0 }}
-      exit={{ opacity: 0, transition: { duration: 0.3 } }}
-      transition={{ duration: 0.3 }}
-    >
+    <div className="profile-container">
       <div className="nav-profile-content-container">
         <div className="nav-profile-items-container container-fluid">
           <div className="profile-content-item row">
@@ -44,7 +29,7 @@ const Profile = () => {
       <div className="ilustracao-projeto">
         <ProjetoIlustracao />
       </div>
-    </motion.nav>
+    </div>
   );
 };
 
