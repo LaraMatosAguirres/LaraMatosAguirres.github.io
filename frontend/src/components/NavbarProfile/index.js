@@ -13,7 +13,7 @@ const NavbarProfile = () => {
             className="nav-profile-item nav-profile-item-dscatalog"
           >
             <h1>DSCatalog</h1>
-            <p>Explore um catálogo web seguro, intuitivo e feito para você! 🔒✨ Clique e confira!</p>
+            <p>Explore um catálogo web seguro, intuitivo e feito para você! 🔒✨</p>
             <p>Clique aqui para ver o projeto :D</p>
           </a>
         </li>
