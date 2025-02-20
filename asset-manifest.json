@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.56586e89.css",
-    "main.js": "/static/js/main.cd8232ad.js",
+    "main.css": "/static/css/main.384e1e8c.css",
+    "main.js": "/static/js/main.edff8eb9.js",
     "static/media/FotoPerfil.svg": "/static/media/FotoPerfil.28bb97603176be7be5ed710407ec8255.svg",
     "static/media/Minha-foto.jpeg": "/static/media/Minha-foto.16ff5aad6d1dbaf438fa.jpeg",
     "static/media/ProjetoIlustracao.svg": "/static/media/ProjetoIlustracao.716e81be880afa66e7f794a5bf4ef7eb.svg",
     "static/media/FolhaCaderno.svg": "/static/media/FolhaCaderno.0eb7f9bd1462504317a3.svg",
     "static/media/Github.svg": "/static/media/Github.c16729b7acdab6e53d89346de319cac4.svg",
-    "static/media/Linkedin.svg": "/static/media/Linkedin.86ca08a2846a9ca846697ca30608fa4f.svg",
-    "static/media/Instagram.svg": "/static/media/Instagram.bd7eae1a09d4d775d980fbea4f620eea.svg",
+    "static/media/Linkedin.svg": "/static/media/Linkedin.d1f55d9abb7d549885fb62c1d4f4001b.svg",
+    "static/media/Instagram.svg": "/static/media/Instagram.445057e759076dc0d5fb1f43b802235b.svg",
     "index.html": "/index.html",
-    "main.56586e89.css.map": "/static/css/main.56586e89.css.map",
-    "main.cd8232ad.js.map": "/static/js/main.cd8232ad.js.map"
+    "main.384e1e8c.css.map": "/static/css/main.384e1e8c.css.map",
+    "main.edff8eb9.js.map": "/static/js/main.edff8eb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.56586e89.css",
-    "static/js/main.cd8232ad.js"
+    "static/css/main.384e1e8c.css",
+    "static/js/main.edff8eb9.js"
   ]
 }
