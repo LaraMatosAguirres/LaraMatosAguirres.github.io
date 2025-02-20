@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import NavbarBottom from "../../components/NavbarBottomHome";
 import NavbarTop from "../../components/NavbarTop";
 import Specialization from "../../components/Specialization";
 import { motion } from "framer-motion";
@@ -29,7 +28,7 @@ const Home = () => {
             <Specialization />
           </div>
         </div>
-        *<CarroselHome />*
+        <CarroselHome />
         
         <div>
           <Contact />
