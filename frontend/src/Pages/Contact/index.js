@@ -24,7 +24,7 @@ const Contact = () => {
       <div className="content-contact-container row">
         <div className="col">
           <p>Gostou do meu portifólio e deseja me contatar?</p>
-          <p>Email: lara.laramatos@gmail.com</p>
+          <p>Email: laramatosaguirres@gmail.com</p>
           <div>
             <a
               href="https://www.linkedin.com/in/lara-matos-aguirres-3a632b244/"
