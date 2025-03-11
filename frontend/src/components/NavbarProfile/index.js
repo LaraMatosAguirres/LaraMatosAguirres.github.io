@@ -41,6 +41,18 @@ const NavbarProfile = () => {
             <p>Clique aqui para ver o projeto :D</p>
           </a>
         </li>
+        <li>
+          <a
+            href="https://github.com/LaraMatosAguirres/DSMeta"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-profile-item"
+          >
+            <h1>DSMeta</h1>
+            <p>Filtre suas vendas e receba um SMS quando cada venda for realizada!</p>
+            <p>Clique aqui para ver o projeto :D</p>
+          </a>
+        </li>
         <div className="setaBaixo"></div>
       </ul>
     </div>
