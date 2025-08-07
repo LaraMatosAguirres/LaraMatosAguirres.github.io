@@ -1,0 +1,111 @@
+.curriculo-container{
+    margin-top: 200px;
+    position: relative;
+    justify-items: center;
+}
+
+.titulo-curriculo-container{
+    position: absolute;
+    top: 50px;
+}
+
+.titulo-curriculo-container h1{
+    font-size: 100px;
+}
+
+.retangulo-container{
+    position: absolute;
+    top: 250px;
+    width: 1000px;
+    height: 450px;
+    background-color: rgb(1, 0, 26);
+}
+
+.moldura-neon-container {
+    position: absolute;
+    top: 200px;
+}
+
+.moldura-neon-container svg{
+    width: 1080px;
+    height: 580px;
+}
+
+.carousel-curriculo-container{
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item-container{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    justify-items: center;
+}
+
+.opcoes-curriculo-container{
+    position: absolute;
+    top: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.opcoes-curriculo-container h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.opcoes-curriculo-container p{
+    padding-top: 20px;
+    font-size: 25px;
+    color: #c2a0ff;
+  text-shadow:
+    0 0 5px #c2a0ff,
+    0 0 10px #c2a0ff,
+    0 0 20px #c2a0ff,
+    0 0 40px #a060ff,
+    0 0 60px #7030ff;
+}
+
+.linha-horizontal-container{
+    height: 3px;
+    background-color: #7030ff;
+}
+
+.curso-container{
+    text-align: left;
+    width: 950px;
+    margin-top: 20px;
+}
+
+.curso-container h2{
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+.habilidades-container{
+    display: flex;
+    position: relative;
+    padding-left: 0px;
+    margin-top: 30px;
+}
+
+.habilidades-coluna-esquerda {
+  position: relative;
+  padding-left: 30px;
+}
+
+.linha-vertical-container{
+    margin-left: 28px;
+    position: absolute;
+    left: 0;
+    width: 2px;
+    height: 180px;
+    background-color: #7030ff;
+}
+
+.habilidades-container-direita{
+    padding-left: 10px;
+}

@@ -1,55 +1,37 @@
-import React, { useEffect, useState } from "react";
-import NavbarTop from "../../components/NavbarTop";
+import React from "react";
+import {ReactComponent as Estrelas_Topo} from "../../assets/images/Estrelas_Topo.svg"
 import Specialization from "../../components/Specialization";
-import { motion } from "framer-motion";
-import "./styles.css";
-import Contact from "../Contact";
-import CarroselHome from "../../components/carroselHome";
+import Curriculum from "../Curriculum";
+import Profile from "../Profile";
+import Contacts from "../Contact";
+import "./style.css"
 
 const Home = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setIsVisible(true);
-    }, 1000); // 5000 milissegundos = 5 segundos
-  }, []);
-  return (
-    <motion.nav
-      className="home-container"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: isVisible ? 1 : 0 }}
-      exit={{ opacity: 0, transition: { duration: 0.3 } }}
-      transition={{ duration: 0.3 }}
-    >
-      <div className="nav-content-container container-fluid">
-        <div className="nav-item-bottom-container row">
-          <div className="content-item content-item-specialization">
-            <Specialization />
-          </div>
-        </div>
-        <CarroselHome />
-        
-        <div>
-          <Contact />
-        </div>
-        {/* 
-        <div className="content-profile-item">
-          <Profile />
-        </div>
-        <div className="content-profile-item">
-          <About />
+    return(
+        <div className="home-container">
+            <div className="estrelas-imagem">
+                <Estrelas_Topo />
+            </div>
+            <div className="texto-inicial">
+                <h1>Olá! Meu nome é Lara</h1>
+                <h2>Sou desenvolvedora FullStack</h2>
+                <h5>Role para baixo e veja meu trabalho</h5>
+            </div>
+            <div>
+                <Specialization />
+            </div>
+            <div>
+                <Curriculum />
+            </div>
+            <div>
+                <Profile />
+            </div>
+            <div>
+                <Contacts />
+            </div>
         </div>
         
-        <div className="content-item">
-            <Profile />
-          </div>
-        <div className="top-nav-bar ">
-          <NavbarTop />
-        </div>*/}
-      </div>
-    </motion.nav>
-  );
-};
+    )
+}
 
 export default Home;

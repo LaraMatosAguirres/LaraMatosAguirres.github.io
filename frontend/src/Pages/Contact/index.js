@@ -1,52 +1,33 @@
-import React, { useEffect, useState } from "react";
-import { ReactComponent as Linkedin } from "../../assets/images/Linkedin.svg";
-import { ReactComponent as Github } from "../../assets/images/Github.svg";
-import { motion } from "framer-motion";
-import "./styles.css";
+import {ReactComponent as Estrelas_Topo} from "../../assets/images/Estrelas_Topo.svg"
+import {ReactComponent as GitHub} from "../../assets/images/Github.svg"
+import {ReactComponent as Linkedin} from "../../assets/images/Linkedin.svg"
+import {ReactComponent as Email} from "../../assets/images/email.svg"
+import "./styles.css"
 
-const Contact = () => {
-  const [isVisible, setIsVisible] = useState(false);
+const Contacts = () => {
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsVisible(true);
-    }, 1000); // 5000 milissegundos = 5 segundos
-  }, []);
-
-  return (
-    <motion.div
-      className="contact-container container"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: isVisible ? 1 : 0 }}
-      exit={{ opacity: 0, transition: { duration: 0.3 } }}
-      transition={{ duration: 0.3 }}
-    >
-      <div className="content-contact-container row">
-        <div className="col">
-          <p>Gostou do meu portifólio e deseja me contatar?</p>
-          <p>Email: laramatosaguirres@gmail.com</p>
-          <div>
-            <a
-              href="https://www.linkedin.com/in/lara-matos-aguirres-3a632b244/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="content-social-svg"
-            >
-              <Linkedin />
-            </a>
-            <a
-              href="https://github.com/LaraMatosAguirres"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="content-social-svg github"
-            >
-              <Github />
-            </a>
-          </div>
+    return (
+        <div className="contatos_principal_container">
+            <div className="estrelas-imagem">
+                <Estrelas_Topo />
+                </div>
+                <div className="titulo-contato">
+                    <h1>Contate-me</h1>
+                </div>
+            <div className="forma-de-contato-container">
+                <a href="https://github.com/LaraMatosAguirres" className="contato-item">
+                    <GitHub />
+                </a>
+                <a href="https://www.linkedin.com/in/lara-matos-aguirres-3a632b244/" className="contato-item">
+                    <Linkedin />
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=laramatosaguirres@gmail.com&su=Olá%20Lara!&body=Gostaria%20de%20entrar%20em%20contato%20com%20você." className="contato-item">
+                    <Email />
+                </a>
+            </div>
         </div>
-      </div>
-    </motion.div>
-  );
-};
+    )
+}
 
-export default Contact;
+export default Contacts;
+    

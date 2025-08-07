@@ -1,0 +1,95 @@
+.specialization-container{
+    background-image: url("../../assets/images/Nebulosa.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carrosel-styles{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 200px;
+}
+
+.minha-foto {
+    width: 700px;
+    padding-top: 100px;
+}
+
+.minha-foto svg{
+    height: 400px;
+}
+
+.texto-specialization-container{
+    margin-right: 150px;
+    text-align: center;
+}
+
+.texto-specialization-container h1{
+    font-size: 55px;
+}
+
+.texto-specialization{
+    padding-top: 50px;
+}
+
+.titulo-quem-sou-eu{
+    justify-items: flex-end;
+    margin-right: 400px;
+}
+
+.titulo-quem-sou-eu h1{
+    font-size: 55px;
+}
+
+.titulo-quem-sou-eu p{
+    padding-right: 45px;
+}
+
+.texto-container-quem-sou-eu{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.texto-quem-sou-eu{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+}
+
+.play-imagem{
+    margin-left: 180px;
+    margin-right: 45px;
+    width: 400px;
+}
+
+.play-imagem h2{
+    font-size: 40px;
+}
+
+.play-imagem p{
+    margin-top: 30px;
+}
+
+.play-imagem svg{
+    margin-top: 30px;
+    width: 250px;
+    height: 200px;
+}
+
+.caracterisca-container{
+    margin-right: 180px;
+}
+
+.aprender-container{
+    margin-right: 30px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-image: url("../../assets/images/seta.svg");
+}
+
+.carousel-control-prev-icon{
+    transform: rotate(180deg);
+}

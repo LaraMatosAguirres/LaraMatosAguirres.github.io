@@ -1,99 +1,28 @@
-.contact-container {
+.contatos_principal_container{
+    margin-top: 100px;
+    justify-items: center;
+    position: relative;
+}
+
+.titulo-contato{
+    position: absolute;
+    top: 250px;
+    
+}
+
+.titulo-contato h1{
+    font-size: 100px;
+}
+
+.forma-de-contato-container{
+    position: absolute;
     display: flex;
-    height: auto;
-    flex-direction: column-reverse;
-    justify-content: space-between;
+    align-items: center;
+    top: 450px;
 }
 
-.content-contact-container {
-    flex: 1;
-    display: flex;
-    padding: 20px 10px 0px 10px;
-    margin-bottom: 20px;
-    align-items: first baseline;
-}
-
-.content-contact-container a {
-    text-decoration: underline;
-}
-
-@media (min-width: 425px){
-    .content-contact-container p{
-        font-size: 20px;
-    } 
-
-    .content-social-svg svg{
-        height: 50px;
-    }
-
-    .github{
-        margin-left: 20px;
-    }
-}
-
-@media (min-width: 768px){
-    .contact-container{
-        height: 50vh;
-        flex-direction: row-reverse;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-
-    .content-contact-container{
-        padding: 0px 10px 0px 70px;
-        align-items: last baseline;
-        margin-bottom: 40px;
-    }
-
-    .content-contact-container p{
-        margin-bottom: 20px;
-        font-size: 25px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .content-contact-container{
-        padding: 0px 10px 0px 100px;
-    }
-
-    .content-contact-container p {
-        font-size: 30px;
-    }
-
-    .content-social-svg svg{
-        height: 65px;
-    }
-
-    .github{
-        margin-left: 30px;
-    }
-}
-
-@media (min-width: 1440px) {
-    .content-contact-container{
-        padding-left: 120px;
-    }
-
-    .content-contact-container p {
-        font-size: 32px;
-    }
-
-    .github{
-        margin-left: 20px;
-    }
-}
-
-@media (min-width: 2560px) {
-    .content-contact-container{
-        padding-left: 200px;
-    }
-
-    .content-contact-container p {
-        font-size: 50px;
-    }
-
-    .content-social-svg svg{
-        height: 120px;
-    }
-
+.contato-item{
+    width: 200px;
+    height: 200px;
+    margin: 0 20px 0 20px;
 }
