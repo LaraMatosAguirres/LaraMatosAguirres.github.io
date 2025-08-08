@@ -1,14 +1,19 @@
+/* Importar animações globais */
+@import "/../frontend/src/Animation.css";
+
 .specialization-container{
     background-image: url("../../assets/images/Nebulosa.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden; /* Previne overflow durante animações */
 }
 
 .carrosel-styles{
     display: flex;
     flex-direction: row-reverse;
-    margin-bottom: 200px;
+    margin-bottom: 379px;
+    align-items: center; /* Melhor alinhamento */
 }
 
 .minha-foto {
@@ -18,6 +23,12 @@
 
 .minha-foto svg{
     height: 400px;
+    /* Adicionar hover effect sutil */
+    transition: transform 0.3s ease;
+}
+
+.minha-foto svg:hover {
+    transform: scale(1.05);
 }
 
 .texto-specialization-container{
@@ -62,6 +73,7 @@
     margin-left: 180px;
     margin-right: 45px;
     width: 400px;
+    cursor: pointer; /* Indicar interatividade */
 }
 
 .play-imagem h2{
@@ -76,14 +88,19 @@
     margin-top: 30px;
     width: 250px;
     height: 200px;
+    transition: transform 0.3s ease;
+}
+
+.play-imagem:hover svg {
+    transform: scale(1.1) rotate(5deg);
 }
 
 .caracterisca-container{
-    margin-right: 180px;
+    margin-right: 140px;
 }
 
 .aprender-container{
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
@@ -92,4 +109,42 @@
 
 .carousel-control-prev-icon{
     transform: rotate(180deg);
+}
+
+/* Melhorias para as seções animadas */
+.aprender-container,
+.caracterisca-container {
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(194, 160, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Responsividade melhorada */
+@media (max-width: 768px) {
+    .carrosel-styles {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .minha-foto {
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    .texto-specialization-container {
+        margin-right: 0;
+        padding: 0 20px;
+    }
+    
+    .texto-quem-sou-eu {
+        flex-direction: column;
+    }
+    
+    .play-imagem {
+        margin: 20px 0;
+        width: 100%;
+    }
 }
