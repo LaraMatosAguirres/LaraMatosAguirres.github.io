@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.384e1e8c.css",
-    "main.js": "/static/js/main.52518388.js",
-    "static/media/FotoPerfil.svg": "/static/media/FotoPerfil.28bb97603176be7be5ed710407ec8255.svg",
-    "static/media/Minha-foto.jpeg": "/static/media/Minha-foto.16ff5aad6d1dbaf438fa.jpeg",
-    "static/media/ProjetoIlustracao.svg": "/static/media/ProjetoIlustracao.716e81be880afa66e7f794a5bf4ef7eb.svg",
-    "static/media/FolhaCaderno.svg": "/static/media/FolhaCaderno.0eb7f9bd1462504317a3.svg",
-    "static/media/Github.svg": "/static/media/Github.c16729b7acdab6e53d89346de319cac4.svg",
-    "static/media/Linkedin.svg": "/static/media/Linkedin.d1f55d9abb7d549885fb62c1d4f4001b.svg",
-    "static/media/Instagram.svg": "/static/media/Instagram.445057e759076dc0d5fb1f43b802235b.svg",
+    "main.css": "/static/css/main.59287037.css",
+    "main.js": "/static/js/main.ae07c5d9.js",
+    "static/media/Nebulosa.svg": "/static/media/Nebulosa.57cbd452c1fa149a9ff2f0786f2e2349.svg",
+    "static/media/Estrelas.svg": "/static/media/Estrelas.2c9083f036a72ba1fe913a1ea0ee1fd5.svg",
+    "static/media/Estrelas_Topo.svg": "/static/media/Estrelas_Topo.9496ac31cf6ebefaff8d3a0180ee6971.svg",
+    "static/media/Moldura_Neon.svg": "/static/media/Moldura_Neon.82c76c1ce07aef224d07e837a4f74a35.svg",
+    "static/media/Lara_Matos_Aguirres_Eng_Software_PT_BR.pdf": "/static/media/Lara_Matos_Aguirres_Eng_Software_PT_BR.9d642a7e50de41d9256d.pdf",
+    "static/media/Lara_Matos_Aguirres_Eng_Software_En.pdf": "/static/media/Lara_Matos_Aguirres_Eng_Software_En.f3447636900a0001bd2d.pdf",
+    "static/media/play.svg": "/static/media/play.47e18addf68fc6958a955c31f9a20570.svg",
+    "static/media/seta.svg": "/static/media/seta.97a0e22b8775a1869dfd.svg",
+    "static/media/Foto_Minha.svg": "/static/media/Foto_Minha.4808d733e80237a30fd6890690a12718.svg",
+    "static/media/DSMeta.png": "/static/media/DSMeta.67210e27e0047337d96b.png",
+    "static/media/DSCatalog.png": "/static/media/DSCatalog.0c1ca6cf8d2d80747786.png",
+    "static/media/DSViaCep.png": "/static/media/DSViaCep.9b6053c00a7cbb2a051c.png",
+    "static/media/ChessSystem.png": "/static/media/ChessSystem.d4154fbf61128731e559.png",
+    "static/media/email.svg": "/static/media/email.e7872f120563623eb6557d0a7add6659.svg",
+    "static/media/Github.svg": "/static/media/Github.a5d6e14f9003c3d1862f1deade7526d3.svg",
+    "static/media/Linkedin.svg": "/static/media/Linkedin.9e651fa7d849acb52f13d142583992f6.svg",
     "index.html": "/index.html",
-    "main.384e1e8c.css.map": "/static/css/main.384e1e8c.css.map",
-    "main.52518388.js.map": "/static/js/main.52518388.js.map"
+    "main.59287037.css.map": "/static/css/main.59287037.css.map",
+    "main.ae07c5d9.js.map": "/static/js/main.ae07c5d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.384e1e8c.css",
-    "static/js/main.52518388.js"
+    "static/css/main.59287037.css",
+    "static/js/main.ae07c5d9.js"
   ]
 }
