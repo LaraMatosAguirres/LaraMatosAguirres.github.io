@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e71d8e13.css",
-    "main.js": "/static/js/main.c8fa8ee2.js",
+    "main.css": "/static/css/main.73427979.css",
+    "main.js": "/static/js/main.d146f1cf.js",
     "static/media/Nebulosa.svg": "/static/media/Nebulosa.57cbd452c1fa149a9ff2.svg",
     "static/media/Estrelas.svg": "/static/media/Estrelas.2c9083f036a72ba1fe91.svg",
     "static/media/Estrelas_Topo.svg": "/static/media/Estrelas_Topo.9496ac31cf6ebefaff8d3a0180ee6971.svg",
@@ -15,11 +15,11 @@
     "static/media/Github.svg": "/static/media/Github.a5d6e14f9003c3d1862f1deade7526d3.svg",
     "static/media/Linkedin.svg": "/static/media/Linkedin.9e651fa7d849acb52f13d142583992f6.svg",
     "index.html": "/index.html",
-    "main.e71d8e13.css.map": "/static/css/main.e71d8e13.css.map",
-    "main.c8fa8ee2.js.map": "/static/js/main.c8fa8ee2.js.map"
+    "main.73427979.css.map": "/static/css/main.73427979.css.map",
+    "main.d146f1cf.js.map": "/static/js/main.d146f1cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.e71d8e13.css",
-    "static/js/main.c8fa8ee2.js"
+    "static/css/main.73427979.css",
+    "static/js/main.d146f1cf.js"
   ]
 }
